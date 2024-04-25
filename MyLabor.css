@@ -1,0 +1,98 @@
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+
+/* Gaya untuk navbar */
+.navbar {
+    margin-bottom: 0;
+  }
+  
+  .navbar-inverse .navbar-brand {
+    color: #db6c6c;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a {
+    color: #d39c9c;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #db6c6c;
+  }
+  
+  /* Gaya untuk kolom 1 */
+  .col-md-4:nth-child(1) {
+    background-color: #d39c9c;
+    padding: 20px;
+  }
+  
+  /* Gaya untuk kolom 2 */
+  .col-md-4:nth-child(2) {
+    background-color: #d39c9c;
+    padding: 20px;
+  }
+  
+  /* Gaya untuk kolom 3 */
+  .col-md-4:nth-child(3) {
+    background-color: #d39c9c;
+    padding: 20px;
+  }
+  
+  /* Gaya untuk tombol submit */
+  .btn-default {
+    background-color: #d39e9e;
+    color: #d39e9e;
+    border: none;
+  }
+  
+  .btn-default:hover,
+  .btn-default:focus {
+    background-color: #d39c9c;
+  }
+
+  #header{
+    width: 100%;
+    height: 100px;
+    background:  #d39c9c;
+    text-align: center;
+}
+  
+  body {
+    background-color:#d39c9c;; /* Ganti 'background.jpg' dengan URL atau path ke gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ini membuat gambar tetap berada di latar belakang saat menggulir halaman */
+  }
+  
+  /* Gaya untuk elemen lainnya tetap berlaku */
+  .navbar {
+    margin-bottom: 0;
+  }
+  
+  .navbar-inverse .navbar-brand {
+    color: rgb(186, 198, 250)f;
+  }
+  
+  .navbar-inverse .navbar-nav > li > a {
+    color: rgb(186, 198, 250);
+  }
+  
+  .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #d39e9e;
+  }
+  
+  .btn-default {
+    background-color: #d39e9e;
+    border: none;
+  }
+  
+  .btn-default:hover,
+  .btn-default:focus {
+    background-color: #d39e9e;
+  } 
